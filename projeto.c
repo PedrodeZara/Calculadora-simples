@@ -3,32 +3,32 @@
 #include <locale.h>
 
 int soma(int num1, int num2){
-    printf("\n\nEscolha dois n�meros\n");
+    printf("\n\nEscolha dois números\n");
     scanf("%d %d",&num1, &num2);
     num1 = num1 + num2;
     return num1;
 }
 
 int sub(int num1, int num2){
-    printf("\n\nEscolha dois n�meros\n");
+    printf("\n\nEscolha dois números\n");
     scanf("%d %d",&num1, &num2);
     num1 = num1 - num2;
     return num1;
 }
 
 int mult(int num1, int num2){
-    printf("\n\nEscolha dois n�meros\n");
+    printf("\n\nEscolha dois números\n");
     scanf("%d %d",&num1, &num2);
     num1 = num1 * num2;
     return num1;
 }
 
 int divi(int num1, int num2) {
-    printf("\n\nEscolha dois n�meros:\n");
+    printf("\n\nEscolha dois números:\n");
     scanf("%d %d",&num1, &num2);
 
         if(num1 == 0 || num2 == 0){
-            printf("Express�o inv�lida"); 
+            printf("Expressão inválida"); 
             num1 = 0;
             return num1;  
         }
@@ -46,7 +46,7 @@ void main() {
     setlocale(LC_ALL, "Portuguese");
 
     printf("\t\tBoa tarde\t\t");
-    printf("\n\n1.Soma\n2.Subtra��o\n3.Multiplica��oo\n4.Divis�o");
+    printf("\n\n1.Soma\n2.Subtração\n3.Multiplicação\n4.Divisão");
     printf("\n\nEscolha uma das operações acima: ");
     scanf("%d",&escolha);
     
