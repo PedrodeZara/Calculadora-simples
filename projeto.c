@@ -69,4 +69,8 @@ void main() {
         int res = divi(num1,num2);
         printf("\nResultado: %d",res);
     }
+
+    else {
+        printf("Valor inserido inválido");
+    }
 }
